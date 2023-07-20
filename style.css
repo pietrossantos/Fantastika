@@ -1,0 +1,459 @@
+@import url("https://fonts.googleapis.com/css2? family= Caesar+Dressing & family= Inter & family= Lato:ital,wght@0,100;0,300;0,700;0,900;1,100;1,300; 1,400;1,700;1,900 & família= Lily+Script+One & família= Roboto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400; 1.500;1.600;1.700;1.800;1.900 & família= Roboto:wght@300;400 & display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* inicio da header */
+header {
+  background-color: #252525;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.img1 {
+  height: 4.5vh;
+  width: 2.5vw;
+}
+
+figcaption {
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+.logo1 {
+  width: 12vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  left: 2.5rem;
+}
+a {
+  text-decoration: none;
+}
+.navegaçãoHeader {
+  width: 11vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  right: 2.5rem;
+}
+.img2_0 {
+  height: 3vh;
+  width: 2vw;
+}
+.img2_1 {
+  height: 3vh;
+  width: 2.7vw;
+}
+.img2_2 {
+  height: 3vh;
+  width: 2vw;
+}
+/* fim da header */
+
+body {
+  background-color: #eb4a7b;
+}
+
+/* primeira seção da main */
+.seção1 {
+  margin-top: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #eb4a7b;
+  height: 90vh;
+}
+.paragrafo1 {
+  width: 40vw;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 3.2rem;
+  text-align: center;
+}
+.imgSobreposta {
+  display: flex;
+  background-image: url("./assets/Logo 2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 18vh;
+  width: 13vw;
+  position: absolute;
+  top: 42vh;
+  border-radius: 50%;
+}
+.banner {
+  display: flex;
+  height: 75vh;
+  width: 28vw;
+  background-image: url("./assets/cachorro 1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+/* fim da primeira seção da main */
+/* segunda seção da main */
+.seção2 {
+  padding-top: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 87vh;
+  background-color: #f4f2f3;
+}
+.title1 {
+  color: #3a342f;
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin-bottom: 1vh;
+}
+.paragrafo2 {
+  color: #3a342f;
+  font-size: 1.7rem;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 2vh;
+}
+.texto {
+  margin-top: -4vh;
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+}
+.primeiroButton {
+  width: 17vw;
+  height: 8vh;
+  background-color: #3a342f;
+  border-radius: 40px;
+  border: none;
+  margin-top: 4vh;
+  transition: all 0.5s ease-in-out;
+}
+.lincagemButton {
+  color: #f4f2f3;
+  font-size: 1.2rem;
+}
+.primeiroButton:hover {
+  cursor: pointer;
+  box-shadow: 0 0 30px #3a342f;
+}
+.banner2 {
+  display: flex;
+  height: 79vh;
+  width: 38vw;
+}
+/* fim da segunda seção da main */
+/* terceira seção da main */
+.seção3 {
+  padding-top: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  background-image: linear-gradient(140deg, #eb4a7b 60%, #fd6a9a 30%);
+}
+.banner3 {
+  display: flex;
+  height: 86vh;
+  width: 40vw;
+}
+.texto2 {
+  display: flex;
+  flex-direction: column;
+  width: 36vw;
+  position: absolute;
+  right: 10vw;
+}
+.title2 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+.paragrafo3 {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  line-height: 4.5vh;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  font-size: 1.09rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.segundoButton {
+  width: 17vw;
+  height: 8vh;
+  background-color: #f4f2f3;
+  border-radius: 40px;
+  border: none;
+  margin-top: 4vh;
+  transition: all 0.5s ease-in-out;
+}
+.lincagemButton2 {
+  color: #000000;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+.segundoButton:hover {
+  cursor: pointer;
+  box-shadow: 0 0 30px #f4f2f3;
+}
+/* fim da terceira seção da main */
+/* parte um do footer */
+.seção4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fd6a9a;
+  background-color: #ffffff;
+  height: 12vh;
+}
+h4 {
+  font-style: italic;
+  font-size: 1.3rem;
+  padding-left: 10vw;
+}
+.navFooter1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  width: 45vw;
+}
+.palavra1 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.palavra2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+/* fim da parte um do footer */
+/* parte dois do footer */
+.seção5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 45vh;
+  width: 65vw;
+  color: #ffffff;
+}
+footer {
+  background-image: linear-gradient(63deg, #eb4a7b 40%, #fd6a9a 40%);
+}
+h3 {
+  font-family: "Roboto", normal;
+  font-size: 1.7rem;
+  font-weight: bolder;
+  letter-spacing: 0.4px;
+}
+.nav1_0 {
+  font-family: "Roboto", sans-serif;
+  padding-top: 5vh;
+  list-style: none;
+  font-weight: bolder 300;
+}
+.nav1_0 li {
+  padding-top: 1vh;
+}
+/* fim da parte dois do footer */
+/* partes somente pra mobile */
+.textoNone {
+  display: none;
+}
+.logo1None {
+  display: none;
+}
+.logosFooter {
+  display: none;
+}
+/* fim da parte mobile */
+/* parabéns, você concluiu seu trabalho (Desktop)!!! */
+
+@media screen and (max-width: 500px) {
+  /* inicio da header */
+  .logo1 {
+    width: 32vw;
+  }
+  .img1 {
+    width: 7vw;
+  }
+  .img2_0 {
+    display: none;
+  }
+  .img2_1 {
+    display: none;
+  }
+  .img2_2 {
+    height: 4vh;
+    width: 6vw;
+  }
+  /* fechamento da header */
+
+  /* inicio da main; parte 1 */
+
+  .paragrafo1 {
+    width: 91vw;
+    font-size: 2.5rem;
+  }
+  .seção1 {
+    height: 82vh;
+    position: relative;
+  }
+  .banner {
+    margin-top: 12vh;
+    display: flex;
+    height: 70vh;
+    width: 69vw;
+  }
+  .imgSobreposta {
+    width: 24vw;
+    position: absolute;
+    top: 0px;
+    margin-top: 150px;
+  }
+  /* fechamento da main; parte 1 e inicio da parte 2 */
+  .seção2 {
+    height: 125vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .texto {
+    width: 87vw;
+    height: 40vh;
+    flex-direction: column;
+  }
+  .title1 {
+    font-size: 2.1rem;
+    font-weight: bold 800;
+  }
+  .paragrafo2 {
+    width: 75vw;
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+
+  .primeiroButton {
+    width: 20vw;
+    width: 45vw;
+  }
+  .banner2 {
+    display: flex;
+    width: 80vw;
+    height: 84vh;
+  }
+  /* fechamento da main; parte 2 e inicio da parte 3 */
+  .seção3 {
+    width: 100vw;
+    height: 120vh;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .texto2 {
+    display: none;
+  }
+  .textoNone {
+    margin-left: 7vw;
+    height: 50vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .title2 {
+    font-weight: bold 800;
+    font-size: 2.1rem;
+  }
+  .paragrafo3 {
+    width: 75vw;
+    font-size: 1.1rem;
+    font-weight: bolder 200;
+  }
+  .segundoButton {
+    width: 20vw;
+    width: 45vw;
+  }
+  .banner3 {
+    height: 60vh;
+    width: 60vw;
+  }
+  /* fechamento da main; parte 3 e inicio do footer; parte um */
+  .seção4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  h4 {
+    margin-right: 8vw;
+  }
+  .navFooter1 {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .logosFooter {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .logo1None {
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .img1_ {
+    width: 20vw;
+  }
+  .fantastika {
+    font-size: 1.8rem;
+  }
+  .navegaçãoFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50vw;
+    flex-direction: row;
+  }
+
+  .img2__0 {
+    display: flex;
+    width: 8vw;
+
+    height: 4.5vh;
+  }
+  .img2__1 {
+    display: flex;
+    width: 11vw;
+    height: 4vh;
+  }
+  .img2__2 {
+    display: flex;
+    width: 8vw;
+    height: 4.5vh;
+  }
+  /* fechamento do footer; parte um e inicio do footer; parte dois */
+  .seção5 {
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  /* fim do footer */
+  /* parabéns, você concluiu seu trabalho (Mobile) !!! */
+}
