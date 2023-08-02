@@ -1,2 +1,5 @@
 # Fantastika
-Created with CodeSandbox
+
+Criado com vscode
+
+
